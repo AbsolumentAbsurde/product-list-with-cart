@@ -323,7 +323,7 @@ function App() {
           <FoodCard image="/src/assets/images/image-creme-brulee-desktop.jpg" category="Crème Brulée" nounce="Vanilla Bean Crème Brûlée" price="$7.00"></FoodCard>
           <FoodCard image="/src/assets/images/image-macaron-desktop.jpg" category="Macaron" nounce="Macaron Mix of Five" price="$8.00"></FoodCard>
           <FoodCard image="/src/assets/images/image-tiramisu-desktop.jpg" category="Tiramisu" nounce="Classic Tiramisu" price="$5.50"></FoodCard>
-          <FoodCard image="/src/assets/images/image-baklava-desktop.jpg" category="Baklava" nounce="Pistachio Baklava" price="$4.00"></FoodCard>
+          <FoodCard image="/images/image-baklava-desktop.jpg" category="Baklava" nounce="Pistachio Baklava" price="$4.00"></FoodCard>
           <FoodCard image="/src/assets/images/image-meringue-desktop.jpg" category="Pie" nounce="Lemon Meringue Pie" price="$5.00"></FoodCard>
           <FoodCard image="/src/assets/images/image-cake-desktop.jpg" category="Cake" nounce="Red Velvet Cake" price="$4.50"></FoodCard>
           <FoodCard image="/src/assets/images/image-brownie-desktop.jpg" category="Brownie" nounce="Salted Caramel Brownie" price="$5.50"></FoodCard>

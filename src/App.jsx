@@ -51,7 +51,7 @@ function FoodCard(props) {
   function AddItemButton(props) {
     return (
       <button onClick={() => addToCart(props)} className='flex justify-center items-center border-2 font-RedHat-Text-SemiBold bg-white border-black rounded-3xl h-10 w-40 hover:border-orange-600 gap-3'>
-        <img src="/src/assets/images/icon-add-to-cart.svg" alt="Image Not Found..."/>
+        <img src="/images/icon-add-to-cart.svg" alt="Image Not Found..."/>
         Add to Cart
       </button>
     );
@@ -208,7 +208,7 @@ function Cart(props) {
                 <p className='font-RedHat-Text-SemiBold text-gray-700'>${(Number(value.replace("$", "")) * cart[key]).toFixed(2)}</p>    
               </div>
               <hr className="w-full border-t-1 my-2" />
-              <button onClick={() => deleteElement(key)} className='flex absolute justify-center items-center right-0 rounded-full border-gray-200 border-2 aspect-square h-5 hover:bg-black'><img src="/src/assets/images/icon-remove-item.svg" alt="Not Found..." /></button>
+              <button onClick={() => deleteElement(key)} className='flex absolute justify-center items-center right-0 rounded-full border-gray-200 border-2 aspect-square h-5 hover:bg-black'><img src="/images/icon-remove-item.svg" alt="Not Found..." /></button>
             </div>
           ))}
         </div>
@@ -217,7 +217,7 @@ function Cart(props) {
           <p className=' flex font-RedHat-Text-Bold text-xl'>${total}</p>
         </div>
         <div className='flex flex-row absolute justify-center items-center gap-1 bg-yellow-50 w-80 h-14 top-[22rem] rounded-xl left-1/2 transform -translate-x-1/2 '>
-          <img src="/src/assets/images/icon-carbon-neutral.svg" alt="Not Found..." />
+          <img src="/images/icon-carbon-neutral.svg" alt="Not Found..." />
           <p className='font-RedHat-Variable'>This is a</p> <p className='font-RedHat-Text-Bold'>carbon-neutral</p> <p className='font-RedHat-Text-SemiBold'>delivery</p>
         </div>
         <div>
@@ -234,7 +234,7 @@ function EmptyCart(props) {
       <p className='font-RedHat-Text-Bold text-orange-600 px-5 py-5 text-2xl'>Your Cart ({cartcount})</p>
       <br /> <br /> <br /> <br />
       <div className='flex flex-col relative justify-center items-center h-52 gap-14'>
-        <img src="/src/assets/images/illustration-empty-cart.svg" alt="Image Not Found..." />
+        <img src="/images/illustration-empty-cart.svg" alt="Image Not Found..." />
         <p className=' font-RedHat-Text-Bold text-lg text-amber-800'>Your added items will appear here</p>
       </div>
     </div>
@@ -257,7 +257,7 @@ function Dialog(props) {
     <div className='flex justify-center items-center fixed h-full bg-black/60 w-full z-50'>
       <div className='flex flex-col w-[37rem] h-[43rem] rounded-2xl bg-white'>
         <div className='flex relative justify-center items-center h-20 w-32 top-3'>
-          <img src="/src/assets/images/icon-order-confirmed.svg" alt="Not Found..." />
+          <img src="/images/icon-order-confirmed.svg" alt="Not Found..." />
         </div>
         <br />
         <div className='relative left-2 px-10 leading-6'>
@@ -319,15 +319,15 @@ function App() {
         <br/>
 
         <div className='grid grid-cols-3 gap-x-17 gap-y-5 place-items-center'> 
-          <FoodCard image="/src/assets/images/image-waffle-desktop.jpg" category="Waffle" nounce="Waffle with Berries" price="$6.50"></FoodCard>
-          <FoodCard image="/src/assets/images/image-creme-brulee-desktop.jpg" category="Crème Brulée" nounce="Vanilla Bean Crème Brûlée" price="$7.00"></FoodCard>
-          <FoodCard image="/src/assets/images/image-macaron-desktop.jpg" category="Macaron" nounce="Macaron Mix of Five" price="$8.00"></FoodCard>
-          <FoodCard image="/src/assets/images/image-tiramisu-desktop.jpg" category="Tiramisu" nounce="Classic Tiramisu" price="$5.50"></FoodCard>
+          <FoodCard image="/images/image-waffle-desktop.jpg" category="Waffle" nounce="Waffle with Berries" price="$6.50"></FoodCard>
+          <FoodCard image="/images/image-creme-brulee-desktop.jpg" category="Crème Brulée" nounce="Vanilla Bean Crème Brûlée" price="$7.00"></FoodCard>
+          <FoodCard image="/images/image-macaron-desktop.jpg" category="Macaron" nounce="Macaron Mix of Five" price="$8.00"></FoodCard>
+          <FoodCard image="/images/image-tiramisu-desktop.jpg" category="Tiramisu" nounce="Classic Tiramisu" price="$5.50"></FoodCard>
           <FoodCard image="/images/image-baklava-desktop.jpg" category="Baklava" nounce="Pistachio Baklava" price="$4.00"></FoodCard>
-          <FoodCard image="/src/assets/images/image-meringue-desktop.jpg" category="Pie" nounce="Lemon Meringue Pie" price="$5.00"></FoodCard>
-          <FoodCard image="/src/assets/images/image-cake-desktop.jpg" category="Cake" nounce="Red Velvet Cake" price="$4.50"></FoodCard>
-          <FoodCard image="/src/assets/images/image-brownie-desktop.jpg" category="Brownie" nounce="Salted Caramel Brownie" price="$5.50"></FoodCard>
-          <FoodCard image="/src/assets/images/image-panna-cotta-desktop.jpg" category="Panna Cotta" nounce="Vanilla Panna Cotta" price="$6.50"></FoodCard>
+          <FoodCard image="/images/image-meringue-desktop.jpg" category="Pie" nounce="Lemon Meringue Pie" price="$5.00"></FoodCard>
+          <FoodCard image="/images/image-cake-desktop.jpg" category="Cake" nounce="Red Velvet Cake" price="$4.50"></FoodCard>
+          <FoodCard image="/images/image-brownie-desktop.jpg" category="Brownie" nounce="Salted Caramel Brownie" price="$5.50"></FoodCard>
+          <FoodCard image="/images/image-panna-cotta-desktop.jpg" category="Panna Cotta" nounce="Vanilla Panna Cotta" price="$6.50"></FoodCard>
         </div>
         <div className='flex place-content-end'> <DisplayCart/> </div>
       </div>

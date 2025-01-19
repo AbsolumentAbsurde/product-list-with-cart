@@ -5,26 +5,26 @@
 @layer base {
   @font-face {
     font-family: RedHat-Italic;
-    src: url(/src/assets/fonts/RedHatText-Italic-VariableFont_wght.ttf)
+    src: url(/fonts/RedHatText-Italic-VariableFont_wght.ttf)
   }
 
   @font-face {
     font-family: RedHat-VariableFont;
-    src: url(/src/assets/fonts/RedHatText-VariableFont_wght.ttf);
+    src: url(/fonts/RedHatText-VariableFont_wght.ttf);
   }
 
   @font-face {
     font-family: RedHat-Text-Bold;
-    src: url(/src/assets/fonts/static/RedHatText-Bold.ttf);
+    src: url(/fonts/static/RedHatText-Bold.ttf);
   }
 
   @font-face {
     font-family: RedHat-Text-Regular;
-    src: url(/src/assets/fonts/static/RedHatText-Regular.ttf);
+    src: url(/fonts/static/RedHatText-Regular.ttf);
   }
 
   @font-face {
     font-family: RedHat-Text-SemiBold;
-    src: url(/src/assets/fonts/static/RedHatText-SemiBold.ttf);
+    src: url(/fonts/static/RedHatText-SemiBold.ttf);
   }
 }
